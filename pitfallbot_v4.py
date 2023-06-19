@@ -317,8 +317,8 @@ def play(num_steps: int):
             break
 
 
-train_episodes = 100
-num_steps = 1000
+train_episodes = 1000
+num_steps = 2000
 
 train(train_episodes, num_steps)
 store_memory()
